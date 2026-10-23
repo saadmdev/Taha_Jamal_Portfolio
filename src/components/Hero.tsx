@@ -74,7 +74,7 @@ export default function Hero() {
                 id="hero-linkedin-btn"
                 aria-label="Visit my LinkedIn profile"
                 title="Visit my LinkedIn profile"
-                className="w-11 h-11 rounded-full border border-[#E2E2E5] bg-[#FFFFFF] hover:border-[#111111] hover:bg-[#111111] hover:text-[#FFFFFF] text-[#111111] inline-flex items-center justify-center transition-all duration-200 shadow-[0_2px_8px_rgba(0,0,0,0.02)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.08)] hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#111111]"
+                className="w-11 h-11 rounded-full border border-[#E2E2E5] bg-[#FFFFFF] hover:border-[#111111] hover:bg-[#111111] hover:text-[#FFFFFF] text-[#111111] hidden sm:inline-flex items-center justify-center transition-all duration-200 shadow-[0_2px_8px_rgba(0,0,0,0.02)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.08)] hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#111111]"
               >
                 <LinkedinIcon className="w-4 h-4" />
               </a>

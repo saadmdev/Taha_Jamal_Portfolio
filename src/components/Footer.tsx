@@ -154,12 +154,12 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Decorative Brand Wordmark - Recognizable and Fully Visible at the Base of the Footer */}
+        {/* Decorative Brand Wordmark - Fully Visible Across All Screen Sizes Without Clipping */}
         <div
-          className="w-full overflow-hidden flex justify-center items-center pointer-events-none select-none pt-8 sm:pt-14 pb-2 leading-none"
+          className="w-full max-w-full overflow-hidden flex justify-center items-center pointer-events-none select-none pt-8 sm:pt-14 pb-2 px-3 sm:px-6 leading-none"
           aria-hidden="true"
         >
-          <span className="text-[clamp(2.75rem,13vw,14rem)] font-black uppercase tracking-tighter leading-none text-[#FFFFFF]/[0.08] sm:text-[#FFFFFF]/[0.06] text-center whitespace-nowrap">
+          <span className="text-[clamp(1.75rem,8.5vw,3.5rem)] sm:text-[clamp(3.5rem,9.5vw,6.5rem)] lg:text-[clamp(6.5rem,10vw,10.75rem)] font-black uppercase tracking-tight leading-none text-[#FFFFFF]/[0.08] sm:text-[#FFFFFF]/[0.06] text-center whitespace-nowrap inline-block">
             TAHA MALIK
           </span>
         </div>
